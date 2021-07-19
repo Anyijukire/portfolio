@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+#home{
+    background-image: url(bb.jpg); 
+    background-color: rgb(55, 156, 97);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    font-size: 30px;    
+    padding-top: 10px;
+    position: absolute;
+}
+a:link {   
+    background-color: transparent;
+    text-decoration: none;  
+    font-size: 30px;   
+    padding: 40px;
+
+  }
+  a:visited {
+    color: rgb(55, 156, 97);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.intro{
+    display: flex;    
+    justify-content: center;
+    padding-top: 290px;
+    color: white;
+    font-size: 35px;
+
+    
+}
+.int{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+} 
+.about{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+}       
+h3{
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 500px;
+} 
+#nav{
+    display: flex;
+    margin-left: 40%;
+    position: absolute;
+    padding-top: 10px;
+}
+.project{
+    display: flex;
+
+}
+#contact{
+ background-color: rgb(55, 156, 97); 
+}
+
+#twitter{
+    color: white;
+    position: relative;
+    padding-left: 80px;
+}
+#email{
+    color: white;
+    position: relative;
+    padding-left: 80px;
+}
+#git{
+    color: white;
+    position: relative;
+    padding-left: 40px;
+}
+#drib{
+    columns: white;
+    position: relative;
+    padding-left: 40px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 0.5vh;
+
+}
+.icons p{
+    padding: 0;
+    margin: 0.9rem 2rem;
+    font-size: 1.4rem;
+}
