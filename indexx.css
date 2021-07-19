@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 #home{
-    background-image: url(bb.jpg); 
-    background-color: rgb(55, 156, 97);
+    background-color: rgb(145, 229, 180);   
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
