@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 #home{
-    background-color: rgb(145, 229, 180);   
+    background-image: url(msupa.jpg); 
+
+    background-color: rgb(145, 229, 180);
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,10 +19,11 @@ a:link {
     text-decoration: none;  
     font-size: 30px;   
     padding: 40px;
+    color: rgb(55, 156, 97);
 
   }
   a:visited {
-    color: rgb(55, 156, 97);
+    color: rgb(250, 250, 250);
     background-color: transparent;
     text-decoration: none;
   }
@@ -68,7 +71,14 @@ h3{
 }
 .project{
     display: flex;
-
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    color: rgb(55, 156, 97);
+}
+a:link .project{
+    color: rgb(55, 156, 97);
 }
 #contact{
  background-color: rgb(55, 156, 97); 
@@ -106,3 +116,41 @@ h3{
     margin: 0.9rem 2rem;
     font-size: 1.4rem;
 }
+#projects{
+    height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.rock{
+    height: 300px;
+    width: 300px;
+}
+.cloc{
+    height: 300px;
+    width: 300px;
+}
+.music{
+    height: 300px;
+    width: 300px;
+}
+.clock{
+    color: rgb(5, 5, 5);
+}
+/* header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px,100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky{
+    background-color: white;
+    padding: 20px, 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+} */
